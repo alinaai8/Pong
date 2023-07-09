@@ -582,6 +582,7 @@ GameObject:
   - component: {fileID: 1633193055}
   - component: {fileID: 1633193054}
   - component: {fileID: 1633193053}
+  - component: {fileID: 1633193057}
   m_Layer: 0
   m_Name: Player Paddle
   m_TagString: Untagged
@@ -630,7 +631,7 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDrag: 2
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -703,6 +704,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1633193057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633193052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde66d9897d258640bc4872ae8b3878c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1633301839
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +777,7 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDrag: 2
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
